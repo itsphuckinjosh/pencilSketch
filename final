@@ -1,0 +1,7 @@
+var c;
+
+function setup() { createCanvas(600, 600); c = color(100); }
+
+function draw() {}
+
+function mouseDragged() { strokeWeight(2); stroke(c); line(mouseX, mouseY, pmouseX, pmouseY); }
