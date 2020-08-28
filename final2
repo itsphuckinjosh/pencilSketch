@@ -1,0 +1,12 @@
+function setup() { 
+  createCanvas(windowWidth, windowHeight); 
+}
+
+function draw() {
+}
+
+function mouseDragged() { 
+  strokeWeight(2); 
+  stroke(100); 
+  line(mouseX, mouseY, pmouseX, pmouseY); 
+}
